@@ -161,7 +161,7 @@
 
 .banner{
   padding: 0 50px;
-  background-image: url(./assets/img/escritorio.avif);
+  background-image: url(../assets/img/escritorio.avif);
   background-attachment: fixed;
   height: 50vh;
   background-size: cover;
