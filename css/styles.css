@@ -137,7 +137,7 @@
   border: none;
   background: none;
   outline: none;
-  color: #fff;
+  color: white;
   border-bottom: 1px solid #d4ac28; }
 
 .contact-form form button {
@@ -150,7 +150,7 @@
 .contact-form form button:hover,
 .contact-form form button:focus {
   background: #d4ac28;
-  color: #fff;
+  color: white;
   transition: background-color 1s ease-out;
   outline: 0; }
 
@@ -222,6 +222,19 @@
 .contenedor-qiuenesomos {
   max-width: fit-content; }
 
+@media (max-width: 500px) {
+  .personas {
+    flex-direction: column; }
+
+  .titulo {
+    color: #d4ac28;
+    text-align: left;
+    font-size: 4rem; }
+
+  .h2-studios {
+    color: white;
+    text-align: left;
+    font-size: 3rem; } }
 .img-grid {
   width: 100%;
   margin: auto; }

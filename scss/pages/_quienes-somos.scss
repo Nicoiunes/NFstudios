@@ -14,18 +14,18 @@
   
   
   .personas div h4{
-    color: white;
+    color: $color-blanco;
     font-size: 20px;
     margin:15px 0;
   }
   
   .personas div p{
-    color: white;
+    color: $color-blanco;
     font-size: 18px;
   }
 
   .contenido-banner{
-    color: white;
+    color: $color-blanco;
     position: relative;
     height: 100%;
     display: flex;
@@ -41,11 +41,29 @@
   }
   
   .contenido-banner h3 span{
-    color: rgb(212, 172, 40);
+    color: $color-amarillo;
     font-size: 75px;
     font-weight: 600;
   }
   
   .contenedor-qiuenesomos{
     max-width: fit-content;
+  }
+
+  @media(max-width: 500px){
+    .personas{
+      flex-direction: column;
+    }
+    .titulo{
+      color: $color-amarillo;
+      text-align: left;
+      font-size: 4rem;
+    }
+  
+      .h2-studios{
+        color: $color-blanco;
+        text-align: left;
+        font-size: 3rem;
+      }
+  
   }

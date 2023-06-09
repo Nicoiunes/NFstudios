@@ -5,19 +5,19 @@
     background-color: rgba(0, 0, 0, 0.5); 
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
+    color: $color-blanco;
   }
   
   .titulo{
-    color: rgb(212, 172, 40);
+    color: $color-amarillo;
     text-align: left;
-    font-size: 5rem;
+    font-size: $font-size-titulo;
   }
   
   .h2-studios{
-    color: white;
+    color: $color-blanco;
     text-align: left;
-    font-size: 5rem;
+    font-size: $font-size-titulo;
   }
   
   .lista-imagenes img{

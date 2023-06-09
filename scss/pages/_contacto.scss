@@ -6,15 +6,14 @@
   }
   
   .logotipo{
-    color: white;
+    color: $color-blanco;
     text-align: center;
     font-size: 3em;
   }
   
-  
   .contact-wrapper{
-    color: white;
-    box-shadow: 0 0 20px 0 rgb(212, 172, 40);
+    color: $color-blanco;
+    box-shadow: 0 0 20px 0 $color-amarillo;
   }
   
   .contact-wrapper > *{
@@ -47,12 +46,12 @@
     border: none;
     background: none; 
     outline: none;
-    color: #fff;
-    border-bottom: 1px solid rgb(212, 172, 40);
+    color: $color-blanco;
+    border-bottom: 1px solid $color-amarillo;
   }
   
   .contact-form form button{
-    background:  rgb(212, 172, 40);
+    background: $color-amarillo;
     color: #000;
     border: 0;
     text-transform: uppercase;
@@ -61,8 +60,8 @@
   
   .contact-form form button:hover,
   .contact-form form button:focus{
-    background:  rgb(212, 172, 40);;
-    color: #fff;
+    background:  $color-amarillo;
+    color: $color-blanco;
     transition: background-color 1s ease-out;
     outline: 0;
   }
