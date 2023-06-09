@@ -1,0 +1,19 @@
+
+/*==== Reponsive Quines-somos ====*/
+@media(max-width: 500px){
+  .personas{
+    flex-direction: column;
+  }
+  .titulo{
+    color: rgb(212, 172, 40);
+    text-align: left;
+    font-size: 4rem;
+  }
+
+    .h2-studios{
+      color: white;
+      text-align: left;
+      font-size: 3rem;
+    }
+
+}

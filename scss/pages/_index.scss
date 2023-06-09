@@ -1,0 +1,75 @@
+.body-index{
+    background-image: url(/assets/img/escritorio.avif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  
+  .titulo{
+    color: rgb(212, 172, 40);
+    text-align: left;
+    font-size: 5rem;
+  }
+  
+  .h2-studios{
+    color: white;
+    text-align: left;
+    font-size: 5rem;
+  }
+  
+  .lista-imagenes img{
+    object-fit: cover;
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+    display: block;
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .lista-imagenes {
+    display: flex;
+    overflow: auto;
+    margin-top: 50px;
+  }
+  
+  .lista-imagenes :hover{
+    transform: scale(1.02);
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .container-centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .texto-inicio{
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 400px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .contenedor-imgtext{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    }
+  
+  .contenedor-imgtext img{
+    width: 400px;
+    height: 400px;
+  
+  }
+  
+  .galeria{
+    background-color: black;
+    margin-bottom: 50px;
+  }
+  

@@ -1,0 +1,18 @@
+
+.header{
+    background-color: black;
+  }
+  
+  .header .logo{
+    cursor: pointer;
+  }
+  
+  .header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+  }
+  
+  .header .logo img:hover{
+    transform: scale(1.2);
+  }

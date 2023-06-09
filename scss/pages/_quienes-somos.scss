@@ -1,0 +1,51 @@
+.personas{
+    flex-direction: row;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .personas img{
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+  }
+  
+  
+  .personas div h4{
+    color: white;
+    font-size: 20px;
+    margin:15px 0;
+  }
+  
+  .personas div p{
+    color: white;
+    font-size: 18px;
+  }
+
+  .contenido-banner{
+    color: white;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .contenido-banner h3{
+    font-size: 30px;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .contenido-banner h3 span{
+    color: rgb(212, 172, 40);
+    font-size: 75px;
+    font-weight: 600;
+  }
+  
+  .contenedor-qiuenesomos{
+    max-width: fit-content;
+  }
