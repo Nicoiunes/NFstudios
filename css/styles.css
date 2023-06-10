@@ -34,6 +34,7 @@
 .p-footer {
   color: grey; }
 
+/* ==== INDEX ==== */
 .body-index {
   background-image: url(/assets/img/escritorio.avif);
   background-attachment: fixed;
@@ -97,6 +98,7 @@
   background-color: black;
   margin-bottom: 50px; }
 
+/* ==== CONTACTO ==== */
 .content {
   max-width: 1170px;
   margin-left: auto;
@@ -179,6 +181,7 @@
 .contact-wrapper > * {
   padding: 2em; }
 
+/* ==== QUIENES SOMOS ==== */
 .personas {
   flex-direction: row;
   padding: 50px 50px;
@@ -222,19 +225,21 @@
 .contenedor-qiuenesomos {
   max-width: fit-content; }
 
-@media (max-width: 500px) {
+/* ==== MEDIA ==== */
+@media (max-width: 700px) {
   .personas {
     flex-direction: column; }
 
   .titulo {
     color: #d4ac28;
     text-align: left;
-    font-size: 4rem; }
+    font-size: 3.5rem; }
 
   .h2-studios {
     color: white;
     text-align: left;
-    font-size: 3rem; } }
+    font-size: 2.5rem; } 
+
 .img-grid {
   width: 100%;
   margin: auto; }
@@ -253,5 +258,26 @@
 
 .card-text {
   color: white; }
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+.contact-wrapper > * {
+    padding: 2em;
+  }
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+    text-align: left;
+  }
+
+  .titu-cont {
+    color: #d4ac28;
+    text-align: left;
+    font-size: 2rem; }
+  }
+
+  
 
 /*# sourceMappingURL=styles.css.map */
