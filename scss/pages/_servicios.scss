@@ -1,24 +1,27 @@
+.container{
+  margin-top: 20px;
+}
+
 .img-grid{
     width: 100%;
     margin: auto;
   }
   
-  .h2-modelos{
-    font-size: 1.5rem;
-    text-align: center;
-    color: $color-blanco;
-  }
+.h2-modelos{
+  font-size: 1.5rem;
+  text-align: center;
+  color: $color-blanco;
+}
   
-  .container-fluid{
-    background-color: black;
-  }
+.container-fluid{
+  background-color: black;
+}
   
-  .card-img-top{
-    height: 12rem;
-    width: auto;
-  }
+.card-img-top{
+  height: 12rem;
+  width: auto;
+}
   
-  .card-text{
-    color: $color-blanco
-  }
-  
+.card-text{
+  color: $color-blanco
+}
