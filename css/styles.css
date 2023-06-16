@@ -16,6 +16,12 @@
   background-size: cover;
   background-position: center; }
 
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #d4ac28 !important; }
+
+.mb-2:hover {
+  color: #d4ac28 !important; }
+
 .header {
   background-color: black; }
 
